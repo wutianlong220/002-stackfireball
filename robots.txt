@@ -1,0 +1,20 @@
+# robots.txt for Stack Fire Ball Game Website
+# https://stackfireball.online
+
+User-agent: *
+Allow: /
+
+# Allow search engines to crawl all pages
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+
+# Block access to sensitive files if any (currently none)
+# Disallow: /private/
+# Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://stackfireball.online/sitemap.xml
+
+# Crawl delay (optional, adjust as needed)
+Crawl-delay: 1
